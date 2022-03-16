@@ -65,6 +65,7 @@ body {
 .velikosti{
     display: flex;
     list-style:none;
+    padding-left: 0;
 }
 
 .prvni {
@@ -73,13 +74,13 @@ body {
 .druha {flex-grow: 1;}
 .treti {flex-grow: 1;}
 .ctvrta {
-    flex-grow: 1;}
+    flex-grow: 1;
+}
 
     .vybrana {
-    border: 2px solid #f15f42;
+    border: 1px solid #f15f42;
     border-radius: 50%;
     color:  #f15f42;
-    text-align: center;
 }
 
 .pata {flex-grow: 1;}
