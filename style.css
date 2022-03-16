@@ -66,6 +66,7 @@ body {
     display: flex;
     list-style:none;
     padding-left: 0;
+    text-align: center;
 }
 
 .prvni {
@@ -75,12 +76,20 @@ body {
 .treti {flex-grow: 1;}
 .ctvrta {
     flex-grow: 1;
+    text-align: center;
+    max-width: 43.52px;
+    padding-left: 10px;
 }
 
-    .vybrana {
+
+.vybrana {
     border: 1px solid #f15f42;
     border-radius: 50%;
     color:  #f15f42;
+    height: 1.7em;
+    width: 1.7em;
+    margin: 0;
+    text-align: center;
 }
 
 .pata {flex-grow: 1;}
